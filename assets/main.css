@@ -1,0 +1,58 @@
+body {
+    font-family: "Helvetica Neue", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 1.4;
+}
+
+.logopiccontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    float: left;
+    width: 234px;
+    margin-right: 0%;
+}
+
+.mainpiccontainer1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    align-content: right;
+    align-content: right;
+}
+
+.mainpiccontainer2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: right;
+    align-content: right;
+}
+.container4pic {
+    display: flex;
+    flex-direction: row;
+    background-color: offwhite;
+    width: 95%;
+    padding-right: 1em;
+    padding-left: 1em;
+    height: 650px;
+    align-content: space-between;
+    align-items: center;
+}
+
+ nav, ul, li {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-family: "Helvetica Neue", Verdana, Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+footer, .container {
+    display: flex;
+    background-color: black;
+    font-family: "Helvetica Neue", Verdana, Arial, Helvetica, sans-serif; color: white;
+    align-items: inline;
+    justify-content: space-between;
+}
